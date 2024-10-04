@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/picture 2 .png"></a>
+            <div class="soc-links" id="soclinks">
+                <img style="width: 20px;" src="https://img.icons8.com/?size=100&id=71200&format=png&color=FFFFFF" alt=""
+                    class="icimg" onclick="hideMenu()">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <img style="width: 18px;" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt=""
+                class="icimg" onclick="showMenu()">
+        </nav>
+        <div class="tex-box">
+            <h1>World's Biggest Universite</h1>
+            <p>The world's largest university by enrollment is Indira Gandhi National Open University (IGNOU) in India,
+                <br>with millions of students across various programs.
+            </p>
+            <a href="" class="hero-btnn">Visits us to know more</a>
+        </div>
+    </section>
+
+<section class="cours">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi iste reiciendis soluta enim odio maxime, delectus laudantium obcaecati. Unde voluptate porro eos totam, quaerat numquam voluptates! Rem inventore accusamus.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi iste reiciendis soluta enim odio maxime, delectus laudantium obcaecati. Unde voluptate porro eos totam, quaerat numquam voluptates! Rem inventore accusamus.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi iste reiciendis soluta enim odio maxime, delectus laudantium obcaecati. Unde voluptate porro eos totam, quaerat numquam voluptates! Rem inventore accusamus.</p>
+        </div>
+    </div>
+</section>
+
+    <script>
+        var soclinks = document.getElementById("soclinks")
+
+        function showMenu() {
+            soclinks.style.right = "0";
+        }
+        function hideMenu() {
+            soclinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
